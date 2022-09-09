@@ -1,0 +1,36 @@
+.main-screen{
+    background-color: #6257FE;
+    position: relative;
+}
+
+.main-screen__photo{
+    background-image: url(/img/Rectangle\ 3.png);
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-screen__button{
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+border-radius: 3px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+padding: 19px 46px 19px 46px;
+border: none;
+margin-bottom: 312px;
+}
+.main-screen__button:hover{
+    background: orange;
+    color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}

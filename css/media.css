@@ -1,0 +1,80 @@
+@media (max-width: 991px) {
+    .main-screen__photo{
+        display: none;
+    }
+    .about-screen{
+        background-image: none;
+        background-color: #100C46;
+    }
+    .about-screen__text:last-child{
+        margin-bottom: 100px;
+    }
+    .about-screen__image{
+        margin-bottom: 100px;
+    }
+    .services-screen{
+        background-image:none;
+        background-color: white;
+    }
+    .services-photos__ceo-photo{
+        position:static;
+        margin: auto;
+    }
+    .services-photos__phone-photo{
+        display: none;
+    }
+    .services-grid__title::before{
+        width: 40px;
+    }
+    .contact-screen{
+        background-color: #6257FE;
+        background-image: none;
+    }
+    .contact-screen__title {
+        color:white;
+    }
+    .contact-screen__uppTitle{
+    color: #100C46;
+    }
+    .contact-form__button{
+        color: #100C46;
+        background-color: white;
+        align-self: center;
+        width: 50%;
+    }
+    .contact-map{
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 575px){
+    .services-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767px){
+    .contact-map{
+        margin-bottom: 50px;
+    }
+    .contact-icons{
+        gap: 45px;
+        margin-bottom: 75px;
+    }
+    .contact-icons__text{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .contact-icons__title{
+        font-size: 30px;
+    }
+    .contact-form__button{
+        padding: 12px 22px 12px 22px;
+    }
+}
+
+@media (min-width: 1700px){
+    .main-screen__photo{
+        width: 50%;
+    }
+}

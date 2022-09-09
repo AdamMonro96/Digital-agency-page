@@ -1,0 +1,37 @@
+.services-screen{
+    width: 100%;
+    background-image: linear-gradient(to left,#6257FE 40%,white 40%);
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+.services-screen__uppTitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #6257FE;
+margin-top: 119px;
+}
+.services-screen__title{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px;
+    color: #100C46;
+    margin-top: 7px;
+    }
+.services-photos{
+    position: relative;
+    height: 100%;
+}
+.services-photos__ceo-photo{
+    position: absolute;
+    top:15%;
+    left:5%;
+
+}
+.services-photos__phone-photo{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}

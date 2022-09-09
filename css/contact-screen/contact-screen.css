@@ -1,0 +1,99 @@
+.contact-screen{
+    width: 100%;
+    background-image: linear-gradient(to left,#6257FE 40%,white 40%);
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-top:148px;
+}
+.contact-screen__uppTitle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6257FE;
+    margin-top: 27px;
+}
+.contact-screen__title{
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 71px;
+color: #100C46;
+margin-top: 7px;
+margin-bottom: 54px;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 99px;
+}
+.contact-form__input{
+    border: none;
+    background-color: #F4F3FF;
+    height: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(16, 12, 70, 0.8);
+    vertical-align: top;
+    padding-left:15px;
+
+}
+.contact-form__textarea{
+    height: auto;
+}
+.contact-form__button{
+background: #6257FE;
+box-shadow: 0px 10px 30px rgba(98, 87, 254, 0.3);
+border-radius: 3px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+border: none;
+width: 192px;
+padding: 19px 46px 19px 46px;
+}
+.contact-form__button:hover{
+    background: orange;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.contact-map{
+    margin-left: auto;
+}
+.contact-icons{
+    display: flex;
+    gap: 75px;
+    flex-direction: column;
+}
+.contact-icons__icon{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.contact-icons__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.contact-icons__title{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+color: #FFFFFF;
+margin-bottom: 12px;
+}

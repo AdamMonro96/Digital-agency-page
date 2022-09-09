@@ -1,0 +1,40 @@
+.services-grid{
+    margin-top:85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+    margin-bottom: 104px;
+}
+.services-grid__icon{
+    color:black;
+    font-size: 30px;
+}
+.services-grid__icon:hover{
+    color: orange;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.services-grid__title{
+font-weight: 600;
+font-size: 22px;
+line-height: 32px;
+color: #100C46;
+}
+.services-grid__title::before{
+    display: inline-block;
+    content:"";
+    border: 1px solid #100C46;
+    width: 77px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.services-grid__text{
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+color: rgba(16, 12, 70, 0.8);
+margin-top: 22px;
+text-align: justify;
+}

@@ -1,0 +1,27 @@
+.portfolio__uppTitle{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #6257FE;
+text-align: center;
+margin-top: 146px;
+    }
+.portfolio__title{
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 71px; 
+    color: #100C46;
+    text-align: center;
+    margin-top: 7px;
+        }
+
+.portfolio{
+    display: flex;
+    gap: 24px;
+    justify-content:center;
+    margin-top: 62px;
+    flex-wrap: wrap;
+    align-items: center;
+}

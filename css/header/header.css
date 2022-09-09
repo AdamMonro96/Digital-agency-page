@@ -1,0 +1,38 @@
+.logo{
+    display: flex;
+    position: absolute;
+    top: 17px;
+    left: 19px;
+    z-index: 1;
+}
+.logo__pic{
+    width: 40px;
+    height: 40px;
+}
+.logo__label{
+color:white;
+line-height: 20px;
+padding-left: 10px;
+}
+.logo__label_bold{
+    font-weight: bold;
+    }
+.icons{
+    display: flex;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.icons__icon{
+    background-color: #6257FE;
+    color: white;
+    text-align: center;
+    padding:11px;
+    font-size: 21px;
+}
+a{
+    color: inherit;
+}
+.icons__icon:hover, .icons__icon a:hover{
+    color: orange;
+}

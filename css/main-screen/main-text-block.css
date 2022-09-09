@@ -1,0 +1,30 @@
+.main-text-block{
+    color: white;
+    padding-top: 217px;
+}
+.main-text-block__upptitle{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+margin-bottom: 7px;
+}
+.main-text-block__title{
+    font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 71px;
+margin-bottom: 30px;
+    
+}
+.main-text-block__subtitle{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+margin-bottom: 67px;
+    
+}
