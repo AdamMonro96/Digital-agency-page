@@ -12,6 +12,17 @@
     <script src="https://kit.fontawesome.com/644829a4a4.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="backdrop"></div>
+    <div class="pop-up">
+        <h2 class="pop-up__title">Contact Us!</h2>
+        <form class="contact-form contact-form_centered" name="contact-form-pop-up">
+            <input class="contact-form__input contact-form__input_centered" type="text" placeholder="Name">
+            <input class="contact-form__input contact-form__input_centered" type="email"placeholder="Email">
+            <input class="contact-form__input contact-form__input_centered" type="text" placeholder="Subject">
+            <textarea class="contact-form__input contact-form__textarea contact-form__input_centered" placeholder="Subject" rows="5"></textarea>
+            <button class="contact-form__button contact-form__button_active" form="contact-form-pop-up">Get Sterted</button>
+        </form>
+    </div>
         <div class="logo">
         <div class="logo__pic"><img src="/img/logo.png" alt="logo"></div>
         <div class="logo__label">
@@ -23,8 +34,16 @@
         <div class="icons__icon"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
         <div class="icons__icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
         <div class="icons__icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+        <div class="icons__icon icons__icon_menu"><i class="fa-solid fa-x"></i></div>
     </div>
-    <section class="main-screen">
+    <div class="menu hidden">
+            <a class="menu__element" href="#about">About</a>
+            <a class="menu__element" href="#services">Services</a>
+            <a class="menu__element" href="#portfolio">Portfolio</a>
+            <a class="menu__element" href="#team">Team</a>
+            <a class="menu__element" href="#contact">Contact Us</a>
+    </div>
+    <section class="main-screen" id="main">
         <div class="main-screen__photo"></div>
         <div class="container">
         <div class="row">
@@ -34,12 +53,12 @@
                 <h1 class="main-text-block__title">Digital Agency</h1>
                 <h2 class="main-text-block__subtitle">We pride ourselves in delivering world class outputs to all our customers.</h2>
                 </div>
-                <button class="main-screen__button">Get Started</button>
+                <a class="main-screen__button">Get Started</a>
             </div>
         </div>
     </div>
     </section>
-    <section class="about-screen">
+    <section class="about-screen" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12">
@@ -54,7 +73,7 @@
             </div>
         </div>
     </section>
-    <section class="services-screen">
+    <section class="services-screen" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -92,7 +111,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -110,7 +129,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="team">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -172,7 +191,7 @@
             </div>
         </div>
     </section>
-    <section class="contact-screen">
+    <section class="contact-screen" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
@@ -214,12 +233,13 @@
             <div class="row">
                 <div class="col-12 footer">
                     <p class="footer__copyright">© Strukov Vladimir 2022</p>
-                    <a class="up-button" href="#"> 
+                    <a class="up-button" href="#main"> 
                         <i class="fa-solid fa-arrow-up"></i>
                     </a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="/js/menu.js"></script>
 </body>
 </html>

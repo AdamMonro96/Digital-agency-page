@@ -97,3 +97,11 @@ line-height: 32px;
 color: #FFFFFF;
 margin-bottom: 12px;
 }
+.contact-form_centered{
+justify-content: center;
+align-items: center;
+margin-bottom: 0 !important;
+}
+.contact-form__input_centered{
+width: 100%;
+}

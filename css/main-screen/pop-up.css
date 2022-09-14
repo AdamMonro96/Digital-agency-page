@@ -1,0 +1,30 @@
+.pop-up{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border-radius: 30px;
+    padding: 75px 100px 40px 100px;
+    width: 50%;
+    right: 25%;
+    top: 10%;
+    filter: drop-shadow(0px 10px 50px rgba(16, 12, 70, 0.2));
+    display: none;
+}
+
+.pop-up__title{
+    color: #6257FE;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pop-up_active{
+    display: block;
+}
+
+.contact-form__input_centered{
+    height: 70px;
+}

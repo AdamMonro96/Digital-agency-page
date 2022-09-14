@@ -19,7 +19,7 @@ padding-left: 10px;
     }
 .icons{
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 0;
     z-index: 1;
 }
@@ -29,10 +29,52 @@ padding-left: 10px;
     text-align: center;
     padding:11px;
     font-size: 21px;
+    width: 55px;
+    height: 55px;
 }
 a{
     color: inherit;
 }
 .icons__icon:hover, .icons__icon a:hover{
     color: orange;
+}
+.menu{
+    position: fixed;
+    right:0;
+    top:55px;
+    z-index: 2;
+    width: 220px;
+    background-color: #6257FE;
+}
+.menu__element{
+color: white;
+text-transform: uppercase;
+font-family: 'Overpass';
+font-style: normal;
+font-weight: 700;
+width: 100%;
+padding: 15px;
+font-size: 20px;
+display: block;
+text-decoration: none;
+}
+.menu__element:hover{
+    background-color: white;
+    color: #6257FE;
+}
+.hidden{
+    display: none !important;
+    transition: 0.5s;
+}
+.backdrop{
+    background-color: #333;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    opacity: 0.5;
+    display: none;
+}
+.visible{
+    display: block !important;
 }
