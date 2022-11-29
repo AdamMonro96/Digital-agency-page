@@ -197,12 +197,12 @@
                 <div class="col-lg-4 col-md-12">
                     <p class="contact-screen__uppTitle">Keep in touch</p>
                     <h2 class="contact-screen__title">Contact us</h2>
-                    <form class="contact-form" name="contact-form">
-                        <input class="contact-form__input" type="text" placeholder="Name">
-                        <input class="contact-form__input" type="email"placeholder="Email">
-                        <input class="contact-form__input" type="text" placeholder="Subject">
+                    <form class="contact-form" id="contact-form">
+                        <input class="contact-form__input" type="text" placeholder="Name" required>
+                        <input class="contact-form__input" type="email"placeholder="Email" required>
+                        <input class="contact-form__input" type="tel" placeholder="Phone number" required>
                         <textarea class="contact-form__input contact-form__textarea" placeholder="Subject" rows="5"></textarea>
-                        <button class="contact-form__button" form="contact-form">Get Sterted</button>
+                        <button class="contact-form__button" form="contact-form" type="submit">Get Sterted</button>
                     </form>
                 </div>
                 <div class="col-lg-6 align-self-center col-md-8">
@@ -241,5 +241,6 @@
         </div>
     </footer>
     <script src="js/menu.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
